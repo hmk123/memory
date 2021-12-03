@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\test\文件加密\文件加密\obj\Debug\文件加密.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\test\文件加密\文件加密\obj\Debug\文件加密.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\test\文件加密\文件加密\bin\Debug\文件加密.exe.config
+C:\Users\Administrator\Desktop\test\文件加密\文件加密\bin\Debug\文件加密.exe
+C:\Users\Administrator\Desktop\test\文件加密\文件加密\bin\Debug\文件加密.pdb
+C:\Users\Administrator\Desktop\test\文件加密\文件加密\obj\Debug\文件加密.exe
+C:\Users\Administrator\Desktop\test\文件加密\文件加密\obj\Debug\文件加密.pdb

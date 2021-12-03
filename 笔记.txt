@@ -59,7 +59,7 @@ git@gitee.com:he-mengkai/dm.git
 
 $ git pull origin master
 
-   git@github.com:hmk123/memory-.git
+   git@github.com:hmk123/memory.git
 更新项目
 git log
 
