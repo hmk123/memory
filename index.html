@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-
+  
+     
+    
+      <link rel="stylesheet" type="text/css" href="mystyle.css">
+      </head>
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,28 +15,58 @@
 </head>
 <body>
     
-<input type="button" value="get" class="get">
+  <div id="app">
+
+    <input type="button" value="点击我" @click="test"/>
+    
+    </div>
+
 
 
 </body>
 
 <script>// 为给定 ID 的 user 创建请求
 
-document.querySelector(".get").onclick = function(){
 
-    axios.get('http://localhost/index.php')
-      .then(function (response) {
-        console.log(response.data["b"]);
-    console.log(response.status);
-    console.log(response.statusText);
-    console.log(response.headers);
-    console.log(response.config);
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
+const vm =new Vue({
+el:'#app',
+data:{
 
-}
+  msg:'hello world'
+
+    },
+    methods:{
+
+    test:function(){ //vue的点击触发事件
+
+      mm =  '/get.php?time='+  Date.parse(new Date())+'&Id=12345&psw=123';
+
+      axios.get(mm)
+ .then(function (response) {
+  console.log(response.data);
+  console.log("id: "+response.data["id"]);
+  console.log("password: "+response.data["password"]);
+
+ })
+ .catch(function (error) {
+  console.log(error);
+ });
+ 
+
+            }
+
+
+
+    }
+
+})
+
+ 
+//console.log(Vue)
+
+
+
+ 
    
     
    /* // 上面的请求也可以这样做

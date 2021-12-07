@@ -3,6 +3,25 @@
 
 <?php
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 header( 'Content-Type:text/html;charset=utf-8 '); 
 $servername = "localhost";
 $username = "root";
@@ -13,7 +32,7 @@ $dbname = "test";
 
 $arr = array('a'=>1,'b'=>2);
 
-exit(json_encode($arr));
+exit(time());
  
 
 return;

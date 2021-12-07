@@ -1,0 +1,28 @@
+hr {color:sienna;}
+p {margin-left:20px;
+   
+    text-align:center;
+    /*这是另一个注释*/
+    color:black;
+    font-family:arial;
+    
+
+}
+body {    background-color: #FF6060;background-image:url("/images/back40.gif");}
+
+
+.div1{
+
+    position:fixed;
+    top:10%;
+    left :10%;
+
+    color: #656525;
+    display:  block;
+    height: 30%;width: 30%;
+    background-color: burlywood;
+
+}
+ 
+
+
